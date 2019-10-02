@@ -28,6 +28,21 @@ FROM EMP;
 SELECT * FROM DEPT;
 SELECT * FROM BONUS;
 
+SELECT * FROM EMP,DEPT;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
