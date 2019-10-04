@@ -33,7 +33,7 @@ INSERT INTO EMP1(ENAME) VALUES('S_MITH');                               --INSERT
 INSERT INTO EMP1(ENAME) VALUES('S__MITH');
 SELECT * FROM EMP1 WHERE ENAME LIKE 'SA_%' ESCAPE 'A';                  --FOR 'S_MITH'
 SELECT * FROM EMP1 WHERE ENAME LIKE 'SA_A_%' ESCAPE 'A';                -- FOR 'S__MITH'
-
+COMMIT;
 
 
 
